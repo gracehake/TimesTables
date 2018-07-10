@@ -35,7 +35,7 @@
             // 
             // equationTextBox
             // 
-            this.equationTextBox.Location = new System.Drawing.Point(12, 12);
+            this.equationTextBox.Location = new System.Drawing.Point(13, 12);
             this.equationTextBox.Name = "equationTextBox";
             this.equationTextBox.ReadOnly = true;
             this.equationTextBox.Size = new System.Drawing.Size(100, 20);
@@ -44,7 +44,7 @@
             // 
             // answerTextBox
             // 
-            this.answerTextBox.Location = new System.Drawing.Point(118, 12);
+            this.answerTextBox.Location = new System.Drawing.Point(119, 12);
             this.answerTextBox.Name = "answerTextBox";
             this.answerTextBox.Size = new System.Drawing.Size(100, 20);
             this.answerTextBox.TabIndex = 0;
@@ -52,7 +52,7 @@
             // checkButton
             // 
             this.checkButton.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.checkButton.Location = new System.Drawing.Point(236, 10);
+            this.checkButton.Location = new System.Drawing.Point(237, 10);
             this.checkButton.Name = "checkButton";
             this.checkButton.Size = new System.Drawing.Size(75, 23);
             this.checkButton.TabIndex = 2;
@@ -60,12 +60,12 @@
             this.checkButton.UseVisualStyleBackColor = true;
             this.checkButton.Click += new System.EventHandler(this.checkButton_Click);
             // 
-            // mainForm
+            // MainForm
             // 
             this.AcceptButton = this.checkButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(330, 54);
+            this.ClientSize = new System.Drawing.Size(329, 54);
             this.Controls.Add(this.checkButton);
             this.Controls.Add(this.answerTextBox);
             this.Controls.Add(this.equationTextBox);
